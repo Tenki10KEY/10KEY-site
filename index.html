@@ -1,119 +1,134 @@
-<!DOCTYPE html>
-<html lang="sr">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>10KEY - Luksuzna Tehnika</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Arial', sans-serif;
-            background-color: #121212;
-            color: #f0f0f0;
-        }
-        header {
-            background-color: #1f1f1f;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-            color: #00bcd4;
-        }
-        nav {
-            margin-top: 10px;
-        }
-        nav a {
-            color: #ccc;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            padding: 40px 20px;
-        }
-        .product {
-            background: #1f1f1f;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 10px;
-            text-align: center;
-        }
-        .product img {
-            width: 250px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-        }
-        footer {
-            background: #1f1f1f;
-            padding: 20px;
-            text-align: center;
-            font-size: 14px;
-            color: #777;
-        }
-        .contact-buttons a {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            background: #00bcd4;
-            color: white;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>10KEY - Luxury Tech Deals</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+        href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f0f0f;
+      color: #f5f5f5;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ffffff;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #ccc;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      height: 90vh;
+      background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: #fff;
+      text-shadow: 0 0 10px #000;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .product {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin-top: 10px;
+      font-size: 1.2rem;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #ff9900;
+      color: #000;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
-
-<header>
-    <h1>10KEY</h1>
+  <header>
+    <div class="logo">10KEY</div>
     <nav>
-        <a href="#katalog">Katalog</a>
-        <a href="#kontakt">Kontakt</a>
+      <a href="#products">Ponuda</a>
+      <a href="#contact">Kontakt</a>
     </nav>
-</header>
-
-<section id="katalog">
-    <h2>Katalog proizvoda</h2>
-
-    <div class="product">
-        <img src="iphone_black.jpg" alt="iPhone Black Titanium">
-        <h3>iPhone 16 Pro Max 256GB - Black Titanium</h3>
-        <p>Cena: 1125€</p>
+  </header>
+  <section class="hero">
+    <h1>Najluksuznija tehnika, po ceni pametne kupovine</h1>
+  </section>
+  <section class="section" id="products">
+    <h2>Top proizvodi</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1580910051073-87d84fcd5bba" alt="iPhone" />
+        <h3>iPhone 15 Pro Max</h3>
+        <a href="https://www.amazon.com/dp/B0CHX1QLR8?tag=tvojaffiliateid">Kupi odmah</a>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1571231267765-9c0b3f8dbb57" alt="MacBook" />
+        <h3>MacBook Pro M3</h3>
+        <a href="https://www.amazon.com/dp/B0CLFXLJLN?tag=tvojaffiliateid">Kupi odmah</a>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1611601186324-06f61b3c2187" alt="Sony slušalice" />
+        <h3>Sony WH-1000XM5</h3>
+        <a href="https://www.amazon.com/dp/B0B3LKSN61?tag=tvojaffiliateid">Kupi odmah</a>
+      </div>
     </div>
-
-    <div class="product">
-        <img src="iphone_natural.jpg" alt="iPhone Natural Titanium">
-        <h3>iPhone 16 Pro Max 256GB - Natural Titanium</h3>
-        <p>Cena: 1125€</p>
-    </div>
-
-    <div class="product">
-        <img src="iphone_white.jpg" alt="iPhone White Titanium">
-        <h3>iPhone 16 Pro Max 256GB - White Titanium</h3>
-        <p>Cena: 1125€</p>
-    </div>
-
-    <div class="product">
-        <img src="iphone_desert.jpg" alt="iPhone Desert Titanium">
-        <h3>iPhone 16 Pro Max 256GB - Desert Titanium</h3>
-        <p>Cena: 1125€</p>
-    </div>
-
-</section>
-
-<section id="kontakt">
-    <h2>Kontaktirajte nas</h2>
-    <div class="contact-buttons">
-        <a href="https://wa.me/381601234567" target="_blank">WhatsApp</a>
-        <a href="https://instagram.com/vasprofil" target="_blank">Instagram</a>
-        <a href="viber://chat?number=+381601234567" target="_blank">Viber</a>
-    </div>
-</section>
-
-<footer>
+  </section>
+  <section class="section" id="contact">
+    <h2>Kontaktiraj nas</h2>
+    <p>Za sva pitanja i saradnje, piši na <a href="mailto:info@10key.rs">info@10key.rs</a></p>
+  </section>
+  <footer>
     © 2025 10KEY. Sva prava zadržana.
-</footer>
-
+  </footer>
 </body>
 </html>
