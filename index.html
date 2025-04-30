@@ -1,11 +1,14 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="sr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>10KEY - Luxury Tech Deals</title>
+  <meta name="description" content="Najluksuznija tehnika sa pametnim cenama. Kupuj preko 10KEY i zaradi sa Amazon affiliate programom.">
+  <meta name="author" content="10KEY">
+  <meta name="robots" content="index, follow">
+  <title>10KEY - Luksuzna tehnika po pametnoj ceni</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet"
-        href="style.css">
   <style>
     * {
       margin: 0;
@@ -16,6 +19,7 @@
       font-family: 'Inter', sans-serif;
       background-color: #0f0f0f;
       color: #f5f5f5;
+      line-height: 1.6;
     }
     header {
       background: #1a1a1a;
@@ -23,21 +27,26 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
     .logo {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       font-weight: bold;
-      color: #ffffff;
+      color: #ff9900;
     }
     nav a {
       margin-left: 20px;
       text-decoration: none;
       color: #ccc;
       transition: color 0.3s;
+      font-weight: 500;
     }
     nav a:hover {
       color: #fff;
     }
+
     .hero {
       height: 90vh;
       background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7') no-repeat center center/cover;
@@ -45,16 +54,36 @@
       align-items: center;
       justify-content: center;
       text-align: center;
+      flex-direction: column;
+      padding: 0 20px;
     }
     .hero h1 {
-      font-size: 3rem;
+      font-size: 2.8rem;
       color: #fff;
       text-shadow: 0 0 10px #000;
+      max-width: 800px;
     }
+    .hero a {
+      margin-top: 30px;
+      padding: 12px 24px;
+      font-size: 1rem;
+      background: #ff9900;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
     .section {
       padding: 60px 20px;
       max-width: 1200px;
       margin: 0 auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      text-align: center;
     }
     .products {
       display: grid;
@@ -66,6 +95,7 @@
       padding: 20px;
       border-radius: 12px;
       box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      text-align: center;
     }
     .product img {
       width: 100%;
@@ -83,12 +113,28 @@
       color: #000;
       border-radius: 6px;
       text-decoration: none;
+      font-weight: bold;
     }
+
+    #contact p, #contact a {
+      text-align: center;
+      font-size: 1.1rem;
+      display: block;
+      color: #ccc;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
       background: #111;
       color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
@@ -100,35 +146,40 @@
       <a href="#contact">Kontakt</a>
     </nav>
   </header>
+
   <section class="hero">
-    <h1>Najluksuznija tehnika, po ceni pametne kupovine</h1>
+    <h1>Luksuzna tehnika. Pametna cena. Zaradi uz Amazon affiliate.</h1>
+    <a href="#products">Pogledaj ponudu</a>
   </section>
+
   <section class="section" id="products">
     <h2>Top proizvodi</h2>
     <div class="products">
       <div class="product">
         <img src="https://images.unsplash.com/photo-1580910051073-87d84fcd5bba" alt="iPhone" />
         <h3>iPhone 15 Pro Max</h3>
-        <a href="https://www.amazon.com/dp/B0CHX1QLR8?tag=tvojaffiliateid">Kupi odmah</a>
+        <a href="https://www.amazon.com/dp/B0CHX1QLR8?tag=10key03-20" target="_blank">Kupi odmah</a>
       </div>
       <div class="product">
         <img src="https://images.unsplash.com/photo-1571231267765-9c0b3f8dbb57" alt="MacBook" />
         <h3>MacBook Pro M3</h3>
-        <a href="https://www.amazon.com/dp/B0CLFXLJLN?tag=tvojaffiliateid">Kupi odmah</a>
+        <a href="https://www.amazon.com/dp/B0CLFXLJLN?tag=10key03-20" target="_blank">Kupi odmah</a>
       </div>
       <div class="product">
         <img src="https://images.unsplash.com/photo-1611601186324-06f61b3c2187" alt="Sony slušalice" />
         <h3>Sony WH-1000XM5</h3>
-        <a href="https://www.amazon.com/dp/B0B3LKSN61?tag=tvojaffiliateid">Kupi odmah</a>
+        <a href="https://www.amazon.com/dp/B0B3LKSN61?tag=10key03-20" target="_blank">Kupi odmah</a>
       </div>
     </div>
   </section>
+
   <section class="section" id="contact">
     <h2>Kontaktiraj nas</h2>
-    <p>Za sva pitanja i saradnje, piši na <a href="mailto:info@10key.rs">info@10key.rs</a></p>
+    <p>Za saradnju i pitanja: <a href="mailto:info@10key.rs">info@10key.rs</a></p>
   </section>
+
   <footer>
-    © 2025 10KEY. Sva prava zadržana.
+    © 2025 10KEY. Sva prava zadržana. Affiliate linkovi vode na Amazon.com.
   </footer>
 </body>
 </html>
