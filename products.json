@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Logitech MX Master 3S",
+    "image": "https://m.media-amazon.com/images/I/71tX0+3zloL._AC_SY355_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B09HM94VDS?tag=10key03-20"
+  },
+  {
+    "title": "Kindle Paperwhite",
+    "image": "https://m.media-amazon.com/images/I/71TPda7cwUL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B09TMN7W5P?tag=10key03-20"
+  },
+  {
+    "title": "Anker Power Bank 20,000mAh",
+    "image": "https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B07S829LBX?tag=10key03-20"
+  },
+  {
+    "title": "Samsung T7 SSD 1TB",
+    "image": "https://m.media-amazon.com/images/I/61i8Vjb17SL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B0874Y4QKL?tag=10key03-20"
+  },
+  {
+    "title": "Fire TV Stick 4K",
+    "image": "https://m.media-amazon.com/images/I/51gYhd+RAKL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B09BZZVY2X?tag=10key03-20"
+  },
+  {
+    "title": "HP 15 Laptop (11th Gen i5)",
+    "image": "https://m.media-amazon.com/images/I/61jLiCovxWL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "laptop",
+    "link": "https://www.amazon.com/dp/B09KQFDL1P?tag=10key03-20"
+  },
+  {
+    "title": "GoPro HERO10 Black",
+    "image": "https://m.media-amazon.com/images/I/71V--WZVUIL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B09CS7BG1C?tag=10key03-20"
+  },
+  {
+    "title": "Apple Watch Series 9",
+    "image": "https://m.media-amazon.com/images/I/61drpi3cYUL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B0CHY6WZ5J?tag=10key03-20"
+  },
+  {
+    "title": "Roku Streaming Stick 4K",
+    "image": "https://m.media-amazon.com/images/I/61RDbYF01gL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B09BK6FJXN?tag=10key03-20"
+  },
+  {
+    "title": "Bose QuietComfort 45",
+    "image": "https://m.media-amazon.com/images/I/61D1XedJ8nL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "audio",
+    "link": "https://www.amazon.com/dp/B098FKXT8L?tag=10key03-20"
+  }
+]
