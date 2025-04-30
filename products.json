@@ -1,37 +1,72 @@
 [
   {
     "title": "Logitech MX Master 3S",
-    "image": "https://m.media-amazon.com/images/I/61fAEK2tJIL._AC_SL1500_.jpg",
+    "image": "https://m.media-amazon.com/images/I/61Z+QYV0bYL._AC_SX679_.jpg",
     "price": "Kupi odmah",
     "category": "gadget",
     "link": "https://www.amazon.com/dp/B09HM94VDS?tag=10key03-20"
   },
   {
     "title": "Kindle Paperwhite",
-    "image": "https://m.media-amazon.com/images/I/61x0y+If1GL._AC_SL1000_.jpg",
+    "image": "https://m.media-amazon.com/images/I/61jnhvEwHCL._AC_SX679_.jpg",
     "price": "Kupi odmah",
     "category": "gadget",
     "link": "https://www.amazon.com/dp/B08N36XNTT?tag=10key03-20"
   },
   {
+    "title": "Anker Power Bank 20000mAh",
+    "image": "https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B07S829LBX?tag=10key03-20"
+  },
+  {
     "title": "Samsung T7 SSD 1TB",
-    "image": "https://m.media-amazon.com/images/I/71LNTZMHd0L._AC_SL1500_.jpg",
+    "image": "https://m.media-amazon.com/images/I/81nhrWbHLeL._AC_SX679_.jpg",
     "price": "Kupi odmah",
     "category": "gadget",
     "link": "https://www.amazon.com/dp/B0874Y4QKL?tag=10key03-20"
   },
   {
-    "title": "HP 15 Laptop",
-    "image": "https://m.media-amazon.com/images/I/71a4ZQNq9aL._AC_SL1500_.jpg",
+    "title": "Apple Watch SE (2nd Gen)",
+    "image": "https://m.media-amazon.com/images/I/71QWdclY2GL._AC_SX679_.jpg",
     "price": "Kupi odmah",
-    "category": "laptop",
-    "link": "https://www.amazon.com/dp/B09KQFDL1P?tag=10key03-20"
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B0BDJ6XFXC?tag=10key03-20"
   },
   {
     "title": "Sony WH-1000XM5",
-    "image": "https://m.media-amazon.com/images/I/61BkiVtESIL._AC_SL1500_.jpg",
+    "image": "https://m.media-amazon.com/images/I/61f1YfTkTDL._AC_SX679_.jpg",
     "price": "Kupi odmah",
     "category": "audio",
-    "link": "https://www.amazon.com/dp/B0B3LKSN61?tag=10key03-20"
+    "link": "https://www.amazon.com/dp/B09XS7JWHH?tag=10key03-20"
+  },
+  {
+    "title": "HP 15 Laptop (i5, 12GB, SSD)",
+    "image": "https://m.media-amazon.com/images/I/71L2iBSyyOL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "laptop",
+    "link": "https://www.amazon.com/dp/B0C5ZL45VF?tag=10key03-20"
+  },
+  {
+    "title": "GoPro HERO11 Black",
+    "image": "https://m.media-amazon.com/images/I/719IoqZRm7L._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B0BJM8WMSB?tag=10key03-20"
+  },
+  {
+    "title": "Fire TV Stick 4K",
+    "image": "https://m.media-amazon.com/images/I/51Da2Z+FTaL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "gadget",
+    "link": "https://www.amazon.com/dp/B08XVYZ1Y5?tag=10key03-20"
+  },
+  {
+    "title": "Apple AirPods Pro (2nd Gen)",
+    "image": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SX679_.jpg",
+    "price": "Kupi odmah",
+    "category": "audio",
+    "link": "https://www.amazon.com/dp/B0BDHWDR12?tag=10key03-20"
   }
 ]
