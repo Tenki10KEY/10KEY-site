@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="sr">
+<!DOCTYPE html><html lang="sr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Najluksuznija tehnika sa pametnim cenama. Kupuj preko 10KEY i zaradi sa Amazon affiliate programom.">
   <meta name="author" content="10KEY">
   <meta name="robots" content="index, follow">
-  <title>10KEY - Luksuzna tehnika po pametnoj ceni</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <title>10KEY - Luksuzna tehnika po pametnoj ceni</title>  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -46,7 +43,6 @@
     nav a:hover {
       color: #fff;
     }
-
     .hero {
       height: 90vh;
       background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7') no-repeat center center/cover;
@@ -74,7 +70,6 @@
       font-weight: bold;
       box-shadow: 0 0 10px rgba(0,0,0,0.6);
     }
-
     .section {
       padding: 60px 20px;
       max-width: 1200px;
@@ -84,6 +79,20 @@
       font-size: 2rem;
       margin-bottom: 30px;
       text-align: center;
+    }
+    .filter-buttons {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .filter-buttons button {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 6px;
+      background: #ff9900;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
     }
     .products {
       display: grid;
@@ -115,14 +124,12 @@
       text-decoration: none;
       font-weight: bold;
     }
-
     #contact p, #contact a {
       text-align: center;
       font-size: 1.1rem;
       display: block;
       color: #ccc;
     }
-
     footer {
       text-align: center;
       padding: 20px;
@@ -130,7 +137,6 @@
       color: #666;
       font-size: 0.9rem;
     }
-
     @media (max-width: 768px) {
       .hero h1 {
         font-size: 2rem;
@@ -146,40 +152,101 @@
       <a href="#contact">Kontakt</a>
     </nav>
   </header>
-
   <section class="hero">
     <h1>Luksuzna tehnika. Pametna cena. Zaradi uz Amazon affiliate.</h1>
     <a href="#products">Pogledaj ponudu</a>
   </section>
-
   <section class="section" id="products">
     <h2>Top proizvodi</h2>
+    <div class="filter-buttons">
+      <button onclick="filterProducts('all')">Sve</button>
+      <button onclick="filterProducts('laptop')">Laptopi</button>
+      <button onclick="filterProducts('telefon')">Telefoni</button>
+      <button onclick="filterProducts('audio')">Audio</button>
+      <button onclick="filterProducts('gadget')">Gadžeti</button>
+    </div>
     <div class="products">
-      <div class="product">
-        <img src="https://images.unsplash.com/photo-1580910051073-87d84fcd5bba" alt="iPhone" />
-        <h3>iPhone 15 Pro Max</h3>
-        <a href="https://www.amazon.com/dp/B0CHX1QLR8?tag=10key03-20" target="_blank">Kupi odmah</a>
+      <div class="product" data-category="gadget">
+        <img src="https://m.media-amazon.com/images/I/71tX0+3zloL._AC_SY355_.jpg" alt="Logitech MX Master 3S" />
+        <h3>Logitech MX Master 3S</h3>
+        <p>Bežični profesionalni miš</p>
+        <a href="https://www.amazon.com/dp/B09HM94VDS?tag=10key03-20" target="_blank">Kupi odmah</a>
       </div>
-      <div class="product">
-        <img src="https://images.unsplash.com/photo-1571231267765-9c0b3f8dbb57" alt="MacBook" />
-        <h3>MacBook Pro M3</h3>
-        <a href="https://www.amazon.com/dp/B0CLFXLJLN?tag=10key03-20" target="_blank">Kupi odmah</a>
+      <div class="product" data-category="gadget">
+        <img src="https://m.media-amazon.com/images/I/71TPda7cwUL._AC_SX679_.jpg" alt="Kindle Paperwhite" />
+        <h3>Kindle Paperwhite</h3>
+        <p>Najbolji e-čitač sa osvetljenjem</p>
+        <a href="https://www.amazon.com/dp/B09TMN7W5P?tag=10key03-20" target="_blank">Kupi odmah</a>
       </div>
-      <div class="product">
-        <img src="https://images.unsplash.com/photo-1611601186324-06f61b3c2187" alt="Sony slušalice" />
-        <h3>Sony WH-1000XM5</h3>
-        <a href="https://www.amazon.com/dp/B0B3LKSN61?tag=10key03-20" target="_blank">Kupi odmah</a>
+      <div class="product" data-category="gadget">
+        <img src="https://m.media-amazon.com/images/I/61bK6PMOC3L._AC_SX679_.jpg" alt="Anker Power Bank" />
+        <h3>Anker PowerCore 20,000 mAh</h3>
+        <p>Brzo punjenje, kompaktan dizajn</p>
+        <a href="https://www.amazon.com/dp/B07S829LBX?tag=10key03-20" target="_blank">Kupi odmah</a>
+      </div>
+      <div class="product" data-category="gadget">
+        <img src="https://m.media-amazon.com/images/I/61i8Vjb17SL._AC_SX679_.jpg" alt="Samsung SSD" />
+        <h3>Samsung T7 Portable SSD 1TB</h3>
+        <p>Brzo eksterno skladištenje</p>
+        <a href="https://www.amazon.com/dp/B0874Y4QKL?tag=10key03-20" target="_blank">Kupi odmah</a>
+      </div>
+      <div class="product" data-category="gadget">
+        <img src="https://m.media-amazon.com/images/I/61drpi3cYUL._AC_SX679_.jpg" alt="Apple Watch Series 9" />
+        <h3>Apple Watch Series 9</h3>
+        <p>Moderan pametan sat</p>
+        <a href="https://www.amazon.com/dp/B0CHY6WZ5J?tag=10key03-20" target="_blank">Kupi odmah</a>
+      </div>
+      <div class="product" data-category="gadget">
+        <img src="https://m.media-amazon.com/images/I/51gYhd+RAKL._AC_SX679_.jpg" alt="Fire TV Stick 4K" />
+        <h3>Fire TV Stick 4K</h3>
+        <p>Streaming uređaj sa Alexa glasom</p>
+        <a href="https://www.amazon.com/dp/B09BZZVY2X?tag=10key03-20" target="_blank">Kupi odmah</a>
+      </div>
+      <div class="product" data-category="audio">
+        <img src="https://m.media-amazon.com/images/I/61D1XedJ8nL._AC_SX679_.jpg" alt="Bose QC45" />
+        <h3>Bose QuietComfort 45</h3>
+        <p>Noise cancelling slušalice</p>
+        <a href="https://www.amazon.com/dp/B098FKXT8L?tag=10key03-20" target="_blank">Kupi odmah</a>
+      </div>
+      <div class="product" data-category="gadget">
+        <img src="https://m.media-amazon.com/images/I/61RDbYF01gL._AC_SX679_.jpg" alt="Roku Streaming Stick" />
+        <h3>Roku Streaming Stick 4K</h3>
+        <p>Jednostavan za korišćenje i 4K</p>
+        <a href="https://www.amazon.com/dp/B09BK6FJXN?tag=10key03-20" target="_blank">Kupi odmah</a>
+      </div>
+      <div class="product" data-category="laptop">
+        <img src="https://m.media-amazon.com/images/I/61jLiCovxWL._AC_SX679_.jpg" alt="HP 15 Laptop" />
+        <h3>HP 15 Laptop, 11th Gen i5</h3>
+        <p>Brz, pouzdan i pristupačan</p>
+        <a href="https://www.amazon.com/dp/B09KQFDL1P?tag=10key03-20" target="_blank">Kupi odmah</a>
+      </div>
+      <div class="product" data-category="gadget">
+        <img src="https://m.media-amazon.com/images/I/71V--WZVUIL._AC_SX679_.jpg" alt="GoPro HERO10" />
+        <h3>GoPro HERO10 Black</h3>
+        <p>Akciona kamera najnovije generacije</p>
+        <a href="https://www.amazon.com/dp/B09CS7BG1C?tag=10key03-20" target="_blank">Kupi odmah</a>
       </div>
     </div>
   </section>
-
   <section class="section" id="contact">
     <h2>Kontaktiraj nas</h2>
     <p>Za saradnju i pitanja: <a href="mailto:info@10key.rs">info@10key.rs</a></p>
   </section>
-
   <footer>
     © 2025 10KEY. Sva prava zadržana. Affiliate linkovi vode na Amazon.com.
   </footer>
+  <script>
+    function filterProducts(category) {
+      const products = document.querySelectorAll('.product');
+      products.forEach(product => {
+        const cat = product.getAttribute('data-category');
+        if (category === 'all' || cat === category) {
+          product.style.display = 'block';
+        } else {
+          product.style.display = 'none';
+        }
+      });
+    }
+  </script>
 </body>
 </html>
